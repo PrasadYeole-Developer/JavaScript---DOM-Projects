@@ -15,7 +15,7 @@ JavaScript (ES6): Logic for handling music playback, track switching, and user i
 
 Installation :
 Clone the repository:
-git clone https://github.com/your-username/music-player.git
+git clone https://github.com/PrasadYeole-Developer/JavaScript-Projects.git
 Open index.html in your browser to launch the player.
 
 Usage :
