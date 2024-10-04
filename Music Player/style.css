@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+#main {
+  height: 85%;
+  width: 100%;
+  background: rgba(1, 4, 53, 1);
+  background: radial-gradient(at left top, rgba(1, 4, 53, 1), rgb(8, 55, 99));
+  /* background-color: #111; */
+  display: flex;
+  padding: 5vw 10vw;
+}
+#left {
+  height: 100%;
+  width: 45%;
+  background-color: #333;
+
+  /* background-image: url(https://th.bing.com/th/id/OIP.qZq8VwyQ41A5vi-nkXuIZgHaJQ?rs=1&pid=ImgDetMain); */
+  background-size: cover;
+  background-position: top;
+}
+#right {
+  height: 100%;
+  width: 55%;
+  /* background-color: darkblue; */
+  padding: 0 3vw;
+}
+#right h3 {
+  font-size: 40px;
+}
+#all-songs {
+  /* background-color: darkorange; */
+  height: 85%;
+  margin-top: 30px;
+}
+.song-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-top: 1px solid rgb(84, 83, 83);
+  padding: 16px 10px;
+}
+.song-card:hover {
+  background-color: #212121;
+}
+.song-card .part1 {
+  display: flex;
+  align-items: center;
+  pointer-events: none;
+}
+.song-card img {
+  height: 55px;
+  width: 55px;
+  margin-right: 20px;
+}
+.song-card:nth-last-child(1) {
+  /* background-color: darkred; */
+  border-bottom: 1px solid rgb(84, 83, 83);
+}
+.song-card h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+.song-card h6 {
+  font-size: 12px;
+  font-family: 500;
+}
+
+#player {
+  height: 15%;
+  width: 100%;
+  background-color: #111111;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+#player h3 {
+  background-color: rgb(12, 12, 12);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+#player h3 i {
+  font-size: 24px;
+}
+#player h3:active {
+  scale: 0.93;
+}
