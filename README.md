@@ -1,2 +1,2 @@
 # JavaScript Projects
-This Repository includes JavaScript Projects
+This Repository includes JavaScript Projects.
