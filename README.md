@@ -50,6 +50,13 @@ const teams = ["MI", "CSK", "RCB", "KKR"];
 const winner = teams[Math.floor(Math.random() * teams.length)];
 ```
 
+### 5. Music Player
+### 6. Like Feature
+### 7. Custom Cursor
+### 8. Swap Images
+### 9. Create Elements
+### 10. Sticky Navbar
+
 How to Use 
 Clone the repo:
 
