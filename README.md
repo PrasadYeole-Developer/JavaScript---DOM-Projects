@@ -3,7 +3,7 @@ A collection of interactive web projects built with vanilla JavaScript, focusing
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6+-yellow) ![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5) ![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3)
 
-## Projects List 🚀
+## Projects List 
 
 | Project | Description |
 |---------|------------|
@@ -13,7 +13,7 @@ A collection of interactive web projects built with vanilla JavaScript, focusing
 | **[IPL Winner Predictor](#)** | Randomly predicts an IPL team as winner |
 | **[Music Player](#)** | Audio player with play/pause/seek controls |
 
-## Project Details 🔍
+## Project Details 
 
 ### 1. Background Changer
 - **Tech**: `JavaScript` `DOM` `Event Listeners`
