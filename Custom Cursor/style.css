@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: black;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  height: 100%;
+  width: 100%;
+  cursor: none;
+}
+.main .cursor {
+  position: absolute;
+  height: 2rem;
+  width: 2rem;
+  mix-blend-mode: difference;
+  border-radius: 50%;
+  background-color: white;
+  z-index: 10;
+}
+.main h1 {
+  color: white;
+  background: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: 1;
+  transform: translate(-50%, -50%);
+  font-size: 8rem;
+  font-family: sans-serif;
+}
