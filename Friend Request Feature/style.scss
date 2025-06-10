@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body,
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  justify-content: space-around;
+  padding: 1.2rem 1.6rem;
+  border-radius: 0.6rem;
+  background-color: peachpuff;
+  font-family: sans-serif;
+  .bottom {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.7rem;
+  }
+  h3 {
+    color: darkred;
+  }
+  button {
+    font-size: 1rem;
+    color: white;
+    border: none;
+    border-radius: 0.3rem;
+    width: 100%;
+    background-color: darkgrey;
+    padding: 0.6rem;
+  }
+}
+button:active {
+  scale: 0.98;
+}
